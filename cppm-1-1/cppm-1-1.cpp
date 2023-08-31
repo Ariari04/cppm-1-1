@@ -43,8 +43,8 @@ int main()
         fout << arr1[0];
         fout << std::endl;
     }
-    delete arr1;
-    delete arr2;
+    delete[] arr1;
+    delete[] arr2;
     fout.close();
     fin.close();
 }
